@@ -1,0 +1,232 @@
+TOPICS
+
+1.About SDLC
+2.Why DevOps? How DevOps differs from SDLC?
+3.What is DevOps?Introduction to DevOps
+4.Advantages of Devops
+5.What are DevOps Tools?
+Skills required to become a DevOps Engineer?
+
+
+
+SDLC (Software Dvelopment Lifecycle)
+
+
+
+
+
+
+SDLC FAMOUS METHODS :
+	
+1.Waterfall
+2.Agile
+3.DevOps
+
+
+
+Difference Between Waterfall vs Agile vs Devops:
+
+
+
+
+
+Water Fall:
+1.Sequential/Linear stages
+2.Upfront planning and in-depth documentation
+3.Best for simple , Unchanging projects
+4.Close project manager involvement
+
+Agile:
+1.Continuous cycles
+2.Small ,High functioning  ,Collaborative teams
+3.Flexible/continuous evolution
+4.Customer involvement
+
+What is DevOps ?
+	DevOps is a set of practices, tools, and a cultural philosophy that automate and integrate the processes between software development and IT teams. It emphasizes team empowerment, cross-team communication and collaboration, and technology automation.
+
+
+
+ Advantages of DevOps:
+
+Faster, better product delivery
+Faster issue resolution and reduced complexity
+Greater scalability and availability
+More stable operating environments
+Better resource utilization
+Greater automation
+Greater visibility into system outcomes
+Greater innovation
+
+DevOps Tools:
+
+
+
+
+
+Skills Required to become a DevOps Engineer:
+
+
+1.Infrastructure Knowledge
+2.Integration Skills
+3.Automation
+4.Logical Thinking & Soft skills
+5.Exploring Multiple Tools
+
+GIT  TUTORIAL
+
+Topics:
+1.Introduction to version control system
+2.Types of Version control System
+3.List of VCS  Tools
+4.What is GIT
+5.GIT Features
+6.GIT Workflow / GIT 3 tier architecture
+7.GIT installation and basic configuration
+
+
+Version control System:
+
+
+
+Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. As development environments have accelerated, version control systems help software teams work faster and smarter. They are especially useful for DevOps teams since they help them to reduce development time and increase successful deployments.
+
+
+
+Types of version control systems:
+
+
+
+
+
+
+
+
+
+
+List of VCS:
+	There are several types os version control systems that teams use today. Some are Centralized some are Distributed.
+
+Popular types of VCS:
+1.Git                     -->Distributed version control system.
+2.SVN
+3.ClearCase
+4.Mercurial
+5.TFS
+6.Helix core
+
+WHAT IS GIT:
+
+Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+GIT FEATURES:
+1.Works on Distributed systems.
+2.Compatible with all operating systems.
+3.Allows for non-linear development
+4.Branching
+5.Fast as a flash
+6.Reliable.
+
+Git Workflow - 3 Tier Architecture:
+
+
+
+GIT COMMANDS:
+Topics:
+1.Git init		-->How to create Local Git Repository ?[to initialize a folder in git then only the files or folder consider as VCS]
+Eg:  git init foldername
+2.Git add		-->How to add/upload files to staging areas?
+3.Git  rm		-->How to remove files from staging areas?
+4.Git commit	-->How to commit changes to local repository?
+5.Git commit -m		-->to commit a file in local repo and write some msg for reference.
+6.Git restore	-->this command is is used to if you modified some file but not add a local repo means it will suggest this command to discard the changes.
+Eg: git commit  -m “file 1 is added to the local repo”  filename.
+7.Git checkout	-->How to checkout or restore to discard changes from local repository? (help to switch branches)
+Eg: git checkout branchname
+o/p:	branch1
+	*master   {*indicates current branch)
+8.Git checkout -b branchname 		--->To help if there is no branch means it will create and switch that brachname.
+9.Git branch	--->to create new branches
+a)Eg: git branch branchname
+10.Git merge oldbranch	new branch		---> Help to merge on brach changes in another branch.
+11.Git branch -d branchname	---> if you don’t want any branch you can delete that using this command.
+12.Git rebase oldbranch newbranch	--> its is also merging but not exactly two branch changes to merge one branch
+13.Git cherry-pick commitID		--->help to merge a particular commit only.
+14.Git stash	-->to hide a file which is not commit to the local repo		a).	git stash pop 		-->to unhide a file (recently hide file)
+	b).	git stash list		-->to show how many files hided in that id.
+	
+15.Git log		-->How to view committed logs?
+16.Git log  --oneline	-->To see logs in short forms
+17.Git reset	-->How to reset changes?[to change the head position of  a commit]
+18.Git reset --soft  commit id [to remove file from only version control but that files are in staging area]
+19.Git reset --hard commit ID [to remove files from version control and also from your folder]
+20.Git revert	-->How to revert or delete changes?
+21.Git status	-->To see what we did in VCS
+
+
+GIT REMOTE REPOSITORY:
+Topics:
+1.What is git remote repository?
+2.Why remote repository is needed?
+3.Self Hosted / GitHub / BitBucket / GitLab?
+4.How o create Remote repository?
+5.How clone / Push /Pull Remote Repository?
+6.How to change Push / Pull URL?
+7.How to import Existing local repository to remote repository?
+
+
+
+			GITHUB TUTORIAL
+1.Git hub is a web-based hosting service for software code  www.github.com
+2.Provides Version control using GIT
+3.Now Microsoft owning the github software
+4.It is a collaborative tool which helps multiple users to work on a single project with out much difficulties.
+
+How to work with github:
+1.To create a repository 
+2.If you want to create file  you may click add file and select create file
+3.If you have existing file you may click add file and select upload a file.
+4.If you want to edit something in the file click the pencil symbol and edit the file.
+
+Note : Every file you modified or upload a file you will give the commit message then only you can understand what we did in that file.
+5.Finally click the commit changes button.
+6.Every commit ID is one version.
+7.We may check the history also.
+
+BRANCHES:
+	Branch is to isolate development work without affecting other branches in the repository.
+	Each repository have one default branch (master) and can have multiple other branches into another branch using pull request.
+
+You can use branches to:
+1.Develop features
+2.Fix bugs
+3.Safely experiment with new ideas.
+
+MERGING:
+	If you want to add one branch in another branch you may give the pull request to the which server you want to push .it is called merge in git.
+FORK:
+	When a community wants to contribute to the repository,but they don’t have a permission to edit that repository. So they can fork a repository and make changes to that repository after that they make the pull request.
+
+	The original author of the repository can verify the pull request and to decide accept or decline the pull request.
+
+
+MERGE CONFLICT:
+	If a community wants to contribute to the repository.but two persons change the same code in their conditions andmake the pull request.
+on that time the author of the repository face the error  “This brach has conflicts that must be resolved” like this error .
+So the author want to resolve the problem so open the conflict and review it and then the author decide which one want to replace it and to change the commit.
+
+1.Click resolve conflicts
+2.Do changes in the file
+3.Click mark as resolve button
+4.Then commit merge.
+
+ISSUES:
+	This issue option is help to address the bugs or blockers.
+1.Click Issues option
+2.Click New issues button.
+3.Give the title (what is the reason to create an issue).
+4.Next type the comment to what you try to convey he/she.
+5.If a team develop a project means the team had a repository
+6.So If you want to issue any bug then in that team who is responsible for that page you can assign that person .
+
+To PUSH Your Code from IDE to GITHUB:
